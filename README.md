@@ -59,7 +59,7 @@ Brain tumors are typically diagnosed from MRI scans, a process that relies heavi
 | **Weighted Avg** | **0.89** | **0.89** | **0.89** |
 
 DenseNet121 improved meningioma classification the most, the class the custom CNN struggled with. The F1 score rose from 0.58 to 0.77 as recall improved from 0.53 to 0.79.
-
+Minimizing false negatives was also a priority for this model, since misclassifying a tumor scan as healthy could delay a patient's diagnosis and treatment, whereas a false positive only leads to additional testing. By introducing transfer learning, we were able to improve the meningioma F1-score from 0.58 to 0.77, while also reducing false negatives in the healthy class.
 | Custom CNN | DenseNet121 Transfer Learning |
 |---|---|
 | <img src="images/scratchCM.png" width="300"> | <img src="images/transCM.png" width="300"> |
