@@ -31,6 +31,7 @@ B.S. Applied Mathematics, Texas A&M University
 
 Brain tumors are typically diagnosed from MRI scans, a process that relies heavily on radiologist judgment and can benefit from automated, interpretable support tools. In this project, I built a custom convolutional neural network in PyTorch to classify tumor type from MRI images, then improved performance by applying DenseNet-121 transfer learning, raising accuracy from 79% to 88%. To make the model's decisions interpretable, I applied Grad-CAM to generate class activation heatmaps highlighting the MRI regions driving each prediction.
 
+
 | Original MRI | Grad-CAM |
 |---|---|
 | <img src="images/xai2.1.png" width="220"> | <img src="images/xai2.2.png" width="220"> |
