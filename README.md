@@ -5,9 +5,9 @@ brendan.lauterborn@gmail.com | [github.com/brendanglauterborn](https://github.co
 
 ## Education
 
-M.S. Computer Science — Data Science, Towson University
+M.S. Computer Science — Data Science, Towson University - 2024-2026
 
-B.S. Applied Mathematics, Texas A&M University
+B.S. Applied Mathematics, Texas A&M University - 2017-2021
 
 ## Work Experience
 
@@ -66,6 +66,10 @@ Minimizing false negatives was also a priority for this model, since misclassify
 |---|---|
 | <img src="images/scratchCM.png" width="300"> | <img src="images/transCM.png" width="300"> |
 
+#### Key Finding
+
+Because misclassifying a tumor scan as healthy could delay diagnosis and treatment, maximizing the precision for the healthy class was the most important factor, and healthy-class precision rose from 0.94 to 0.96. The total number of false negative cases for the healthy class decreased from 17 to 13, a 23.5% reduction in the most costly metric. Grad-CAM heatmaps made the predictions interpretable by showing which MRI regions drove each classification, ultimately supporting the work of medical professionals.  
+
 ![Python](https://img.shields.io/badge/Python-eeeeee?style=flat&logo=python&logoColor=3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-eeeeee?style=flat&logo=pytorch&logoColor=EE4C2C) ![Grad-CAM](https://img.shields.io/badge/Grad--CAM-eeeeee?style=flat)
 
 [View code on GitHub](https://github.com/brendanglauterborn/brain-tumor-mri-classification-xai).
@@ -92,6 +96,11 @@ The model also picked up on structural cues, not just semantics. ex: "The past, 
 
 <img src="images/xai2.png" width="500">
 
+
+#### Key Finding
+
+This project shows that explainability makes nuanced language models something people can actually trust and learn from. Humor is a hard test case because it depends on context, wordplay, and structure, and it is also *subjective*. The approach could also extend to other subjective language tasks like tone analysis and content moderation, where decisions need to be justified. Language models still struggle to truly understand humor, so being able to see what a model is responding to is pivotal for knowing whether it grasps a joke or is just pattern matching.
+
 ![Python](https://img.shields.io/badge/Python-eeeeee?style=flat&logo=python&logoColor=3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-eeeeee?style=flat&logo=pytorch&logoColor=EE4C2C) ![Captum](https://img.shields.io/badge/Captum-eeeeee?style=flat) ![FastAPI](https://img.shields.io/badge/FastAPI-eeeeee?style=flat&logo=fastapi&logoColor=009688) ![React](https://img.shields.io/badge/React-eeeeee?style=flat&logo=react&logoColor=61DAFB)
 
 [View code on GitHub](https://github.com/brendanglauterborn/Humor-Detection-with-XAI).
@@ -111,6 +120,10 @@ This project explores how well a CNN can generalize fine-grained visual classifi
 <img src="images/dog3.PNG" width="300">
 
 <img src="images/dog2.PNG" width="300">
+
+#### Key Finding
+
+This project shows that transfer learning makes fine-grained visual classification practical. Telling apart 133 dog breeds is hard even for people, since many breeds differ only in subtle features like coat texture, ear shape, or muzzle length. Moving from a baseline CNN to DenseNet-161 raised accuracy from roughly 13% to 86%, showing that reusing pretrained features can turn a task that is out of reach from scratch into a reliable one. The human-to-breed mapping also showed how a model's learned features can be put to creative use beyond the task it was trained on. The same approach could extend to other fine-grained problems where categories look nearly identical, such as species identification, plant disease detection, and product recognition.
 
 ![Python](https://img.shields.io/badge/Python-eeeeee?style=flat&logo=python&logoColor=3776AB) ![PyTorch](https://img.shields.io/badge/PyTorch-eeeeee?style=flat&logo=pytorch&logoColor=EE4C2C)
 
