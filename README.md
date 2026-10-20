@@ -7,7 +7,7 @@ brendan.lauterborn@gmail.com | [github.com/brendanglauterborn](https://github.co
 
 M.S. Computer Science — Data Science, Towson University - 2024-2026
 
-B.S. Applied Mathematics, Texas A&M University - 2017-2021
+B.S. Applied Mathematics, Texas A&M University 
 
 ## Work Experience
 
